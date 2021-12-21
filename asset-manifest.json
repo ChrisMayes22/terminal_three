@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/terminal_two/static/css/main.c438094b.css",
-    "main.js": "/terminal_two/static/js/main.5fc0bc76.js",
-    "static/js/787.26d21bca.chunk.js": "/terminal_two/static/js/787.26d21bca.chunk.js",
-    "static/media/solar_empire.png": "/terminal_two/static/media/solar_empire.a3a6412d46a1075188c2.png",
-    "index.html": "/terminal_two/index.html",
-    "main.c438094b.css.map": "/terminal_two/static/css/main.c438094b.css.map",
-    "main.5fc0bc76.js.map": "/terminal_two/static/js/main.5fc0bc76.js.map",
-    "787.26d21bca.chunk.js.map": "/terminal_two/static/js/787.26d21bca.chunk.js.map"
+    "main.css": "/terminal_three/static/css/main.4380c321.css",
+    "main.js": "/terminal_three/static/js/main.43134910.js",
+    "static/js/787.26d21bca.chunk.js": "/terminal_three/static/js/787.26d21bca.chunk.js",
+    "static/media/solar_empire.png": "/terminal_three/static/media/solar_empire.a3a6412d46a1075188c2.png",
+    "index.html": "/terminal_three/index.html",
+    "main.4380c321.css.map": "/terminal_three/static/css/main.4380c321.css.map",
+    "main.43134910.js.map": "/terminal_three/static/js/main.43134910.js.map",
+    "787.26d21bca.chunk.js.map": "/terminal_three/static/js/787.26d21bca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c438094b.css",
-    "static/js/main.5fc0bc76.js"
+    "static/css/main.4380c321.css",
+    "static/js/main.43134910.js"
   ]
 }
