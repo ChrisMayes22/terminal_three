@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from "react-router-dom";
+import Music from './components/music.js';
+import Poetry from './components/poetry.js';
+import Navigation from './components/navigation';
+import Steward from './components/steward';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navigation/>
+        <Routes>
+          <Route path="/" element={<Music/>}/>
+          <Route path="/permissions" element={<Poetry/>}/>
+          <Route path="/steward" element={<Steward/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
